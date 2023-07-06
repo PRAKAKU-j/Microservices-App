@@ -1,0 +1,14 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 2222
+spring:
+  application:
+    name: CLIENT-ONE
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111/
